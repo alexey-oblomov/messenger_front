@@ -1,0 +1,32 @@
+.login-container {
+max-width: 480px;
+min-height: 320px;
+padding: 15px 20px;
+box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+border: 1px solid #dedcdc;
+border-radius: 5px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+.login-heading {
+    margin: auto;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form-login__input-email,
+.form-login__input-password,
+.form-login__btn-submit {
+    max-width: 280px;
+    max-height: 37px;
+}
+
+.link-to-registration {
+    margin: auto;
+}
