@@ -1,0 +1,32 @@
+.registration-container {
+    max-width: 480px;
+    min-height: 320px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+    border: 1px solid #dedcdc;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .registration-heading {
+        margin: auto;
+    }
+    
+    .form-registration {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .form-registration__input-email,
+    .form-registration__input-password,
+    .form-registration__btn-submit {
+        max-width: 280px;
+        max-height: 37px;
+    }
+    
+    .link-to-login {
+        margin: auto;
+    }
