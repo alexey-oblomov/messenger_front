@@ -1,6 +1,6 @@
 .registration-container {
-    max-width: 480px;
-    min-height: 320px;
+    min-width: 480px;
+    min-height: 400px;
     padding: 15px 20px;
     box-shadow: 2px 2px 8px rgba(0,0,0,.1);
     border: 1px solid #dedcdc;
@@ -8,25 +8,83 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    }
-    
-    .registration-heading {
-        margin: auto;
-    }
-    
-    .form-registration {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-    
-    .form-registration__input-email,
-    .form-registration__input-password,
-    .form-registration__btn-submit {
-        max-width: 280px;
-        max-height: 37px;
-    }
-    
-    .link-to-login {
-        margin: auto;
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registration-heading {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+    margin: auto;
+}
+
+.form-registration {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.form-registration__input-email,
+.form-registration__input-password,
+.form-registration__input-password-repeat {
+    max-width: 280px;
+    min-height: 20px;
+    padding: 5px;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-bottom: 15px;
+}
+
+.form-registration__btn-submit {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+    min-height: 30px;
+    min-width: 150px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .form-registration__btn-submit:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+
+  .form-registration__btn-submit:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+  .link-to-login {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 11px;
+    color: #3369F3;
+  }

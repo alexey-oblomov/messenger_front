@@ -1,0 +1,130 @@
+.listChannels-container {
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+    border: 1px solid #dedcdc;
+    border-radius: 5px;
+    max-width: 320px;
+    height: 100vw;
+}
+
+.listChannels__header {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.link-to-profile {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: 30px;
+    color: #999999;
+}
+
+.listChannels__input-search {
+    width: 290px;
+    height: 20px;
+    background: #EFEFEF;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.listChannels__wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.listChannels__channel {
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+}
+
+.listChannels__channel:hover {
+    cursor: pointer;
+    background-color: #EFEFEF;
+}
+
+.channel__avatar {
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #EAEAEA;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.channel__data {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+.channel__name {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+}
+
+.channel__lastMessage {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.channel__info {
+    min-width: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+.channel__timeOfLastMessage {
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+    text-align: right;
+    color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.channel__countUnreadMessagesWrapper {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3369F3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.channel__countUnreadMessages {
+    width: 12px;
+    height: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    left: 7px;
+}
